@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#painel{
+    background-color: white;
+    width: 650px;
+    height: auto;
+    padding:10px;
+    box-shadow: #333 0px 0px 1px;
+    border-radius: 2px;
+}
+
+#painel:houver{
+    background-color: #F5F5F5;
+}
+
+.titulo{
+    font-size : 25px;
+    color: #000;
+}
+
+.titulo:houver{
+    text-decoration: none;
+    text-align: left;
+}
+
+.descricao{
+    font-size: 18px;
+    font-style: bold;
+    color: black;
+}
+
+.foto{
+    width: 630px;
+    height: 400px;
+}
