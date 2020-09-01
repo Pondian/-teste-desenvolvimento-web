@@ -74,7 +74,7 @@ session_start();
                                 </div>
                             </div>
 
-                            <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
+                            <button type="submit" class="button is-block is-link is-large is-fullwidth"><strong>Cadastrar</strong></button>
                         </form>
                     </div>
                 </div>

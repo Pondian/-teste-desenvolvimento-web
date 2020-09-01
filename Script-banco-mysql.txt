@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `users`.`usuario` (
   `data_cadastro` DATETIME NULL DEFAULT NULL,
   PRIMARY KEY (`usuario_id`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 7
+AUTO_INCREMENT = 9
 DEFAULT CHARACTER SET = armscii8;
 
 
@@ -37,7 +37,7 @@ DEFAULT CHARACTER SET = armscii8;
 -- Table `users`.`posts`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `users`.`posts` (
-  `idposts` INT NOT NULL,
+  `idposts` INT NOT NULL AUTO_INCREMENT,
   `titulo` VARCHAR(245) NULL DEFAULT NULL,
   `descricao` VARCHAR(245) NULL DEFAULT NULL,
   `img_url` VARCHAR(245) NULL DEFAULT NULL,
@@ -49,6 +49,7 @@ CREATE TABLE IF NOT EXISTS `users`.`posts` (
     FOREIGN KEY (`id_autor`)
     REFERENCES `users`.`usuario` (`usuario_id`))
 ENGINE = InnoDB
+AUTO_INCREMENT = 6
 DEFAULT CHARACTER SET = utf8;
 
 

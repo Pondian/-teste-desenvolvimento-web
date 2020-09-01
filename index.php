@@ -47,20 +47,20 @@ session_start();
                                 </div>
                             </div>
 
-                            <div class="buttons"> 
-                                <a class="button is-block is-link is-large is-fullwidth" href="cadastro.php">Cadastrar</a>
-                             
+                            <div class="field is-grouped">
+                                <div class="control">
+
+                                    <button type="submit" class="button is-link is-large "><strong>Entrar</strong></button>
+                                    <a class="button is-link is-large" href="cadastro.php"><strong>Cadastrar</strong></a>
+                                </div>
                             </div>
-                            <div class="buttons">
-                            <button type="submit" class="button is-block is-link is-large is-fullwidth">Entrar</button>
-                            </div>
-                            
-                                
-                           
-                        </form>
+
+
                     </div>
+                    </form>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 </body>
